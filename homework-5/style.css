@@ -23,3 +23,11 @@ nav a{
     color: black;
     font-size: 15px;
 }
+
+body {
+    font-family: Arial, sans-serif;
+}
+button {
+    margin-left: 10px;
+    cursor: pointer;
+}
