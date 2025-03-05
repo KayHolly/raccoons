@@ -13,6 +13,7 @@
 This project will teach us a multitude of things:
 - css to stylize webpage
 - use of DOM elements
+- live links
 - 
 
 
@@ -27,3 +28,6 @@ This project will teach us a multitude of things:
 ### Members & Responsibilities
 
 <!-- List all members, their roles, and their scenario titles -->
+Moubarak Mossi(Scrum Master,Analyst)
+Jonathan Ramirez-Molina(Architect )
+Kaylinn Holly(President , designer)
