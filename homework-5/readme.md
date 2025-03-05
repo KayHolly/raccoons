@@ -10,7 +10,11 @@
 
 ### Key Takeaways
 
-<!-- Understanding of why we are doing this project -->
+This project will teach us a multitude of things:
+- css to stylize webpage
+- use of DOM elements
+- 
+
 
 ### Core Webpages
 
