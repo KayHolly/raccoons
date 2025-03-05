@@ -1,0 +1,9 @@
+h1, p {
+    background-color: #f5deb3;
+
+    padding: 15px; 
+    border-radius: 10px; 
+
+    display: inline-block; 
+
+}
