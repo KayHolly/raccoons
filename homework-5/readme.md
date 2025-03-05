@@ -14,7 +14,6 @@ This project will teach us a multitude of things:
 - css to stylize webpage
 - use of DOM elements
 - live links
-- 
 
 
 ### Core Webpages
