@@ -14,6 +14,7 @@ This project will teach us a multitude of things:
 - css to stylize webpage
 - use of DOM elements
 - live links
+- how to work as a group on github 
 
 
 ### Core Webpages
@@ -27,6 +28,6 @@ This project will teach us a multitude of things:
 ### Members & Responsibilities
 
 <!-- List all members, their roles, and their scenario titles -->
-- Moubarak Mossi(Scrum Master,Analyst)
-- Jonathan Ramirez-Molina(Architect )
-- Kaylinn Holly(President , designer)
+- Moubarak Mossi(Scrum Master,Analyst): Resturants 
+- Jonathan Ramirez-Molina(Architect ): Pet store
+- Kaylinn Holly(President , designer): 
