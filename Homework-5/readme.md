@@ -19,14 +19,14 @@ This project will teach us a multitude of things:
 
 ### Core Webpages
 
-This Project contains three webpages:
-- Animal Shelter (index.html): This page simulates a virtual aniaml shelter by showing a list of the available animals with the option to add them to the cart or remove them if the user made a mistake
-- Restraunt (MO_Index.html): Shows a restraunt menu with the option to add the menu items to the cart for purchase or remove
-- Amusement Park (KH_index.html): Simulates purchases tickets to an amusement park with various options of tickets depending on age (special discount if you're a raccoon)
+<!-- List core webpages and briefly describe the page of them -->
 
 ### Design Choices 
 
-Designs choses are simple (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki) Peoploaly I just think it better on the eyes but I don't want to make too mak=ny chancges beacuse it dose look like someone did make the effort to do that. There is nice boxes for the 
+Designs choses are simple 
+- (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki)
+Personally I just think it is better on the eyes but I don't want to make any changes because it does look like someone did make the effort to do that. There is nice boxes for the highlighted points on each page.
+
 
 ### Members & Responsibilities
 
