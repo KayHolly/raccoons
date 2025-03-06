@@ -6,7 +6,11 @@ The website is primarily an online ordering system, following 3 different types 
 
 ### Live Link
 
+<<<<<<< HEAD
 [Homework 5](https://kayholly.github.io/raccoons/Homework-5)
+=======
+[Homework 5](https://kayholly.github.io/raccons/homework-5/)or(http://127.0.0.1:5500/Homework-5/index.html)
+>>>>>>> d9be314e46d116d9c9ceeebdbece95bb91734dfd
 
 ### Key Takeaways
 
@@ -17,10 +21,16 @@ This project will teach us a multitude of things:
 - how to work as a group on github 
 
 
+<<<<<<< HEAD
 ### Core Webpages
 
-<!-- List core webpages and briefly describe the page of them -->
+This Project contains three webpages:
+- Animal Shelter (index.html): This page simulates a virtual aniaml shelter by showing a list of the available animals with the option to add them to the cart or remove them if the user made a mistake
+- Restraunt (MO_Index.html): Shows a restraunt menu with the option to add the menu items to the cart for purchase or remove
+- Amusement Park (KH_index.html): Simulates purchases tickets to an amusement park with various options of tickets depending on age (special discount if you're a raccoon)
 
+=======
+>>>>>>> d9be314e46d116d9c9ceeebdbece95bb91734dfd
 ### Design Choices 
 
 Designs choses are simple 
