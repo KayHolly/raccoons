@@ -7,7 +7,7 @@
 * Jonathan Ramirez-Molina — Architect/Analyst
 
 ### Live Link
-<!-- [GitHub Live Link](https://kayholly.github.io/raccons/) -->
+[GitHub Live Link](https://kayholly.github.io/raccons/)
 
 ### Assignemnt Links
 [Homework 5](#)
