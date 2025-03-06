@@ -6,7 +6,7 @@ The website is primarily an online ordering system, following 3 different types 
 
 ### Live Link
 
-<!-- [Homework 5](https://kayholly.github.io/raccons/homework-5/)-->
+[Homework 5](https://kayholly.github.io/raccons/homework-5/)or(http://127.0.0.1:5500/Homework-5/index.html)
 
 ### Key Takeaways
 
@@ -17,13 +17,12 @@ This project will teach us a multitude of things:
 - how to work as a group on github 
 
 
-### Core Webpages
-
-<!-- List core webpages and briefly describe the page of them -->
-
 ### Design Choices 
 
-Designs choses are simple (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki) Peoploaly I just think it better on the eyes but I don't want to make too mak=ny chancges beacuse it dose look like someone did make the effort to do that. There is nice boxes for the 
+Designs choses are simple 
+- (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki)
+Personally I just think it is better on the eyes but I don't want to make any changes because it does look like someone did make the effort to do that. There is nice boxes for the highlighted points on each page.
+
 
 ### Members & Responsibilities
 
