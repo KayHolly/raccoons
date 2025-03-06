@@ -6,11 +6,7 @@ The website is primarily an online ordering system, following 3 different types 
 
 ### Live Link
 
-<<<<<<< HEAD
 [Homework 5](https://kayholly.github.io/raccoons/Homework-5)
-=======
-[Homework 5](https://kayholly.github.io/raccons/homework-5/)or(http://127.0.0.1:5500/Homework-5/index.html)
->>>>>>> d9be314e46d116d9c9ceeebdbece95bb91734dfd
 
 ### Key Takeaways
 
@@ -21,7 +17,6 @@ This project will teach us a multitude of things:
 - how to work as a group on github 
 
 
-<<<<<<< HEAD
 ### Core Webpages
 
 This Project contains three webpages:
@@ -29,14 +24,9 @@ This Project contains three webpages:
 - Restraunt (MO_Index.html): Shows a restraunt menu with the option to add the menu items to the cart for purchase or remove
 - Amusement Park (KH_index.html): Simulates purchases tickets to an amusement park with various options of tickets depending on age (special discount if you're a raccoon)
 
-=======
->>>>>>> d9be314e46d116d9c9ceeebdbece95bb91734dfd
 ### Design Choices 
 
-Designs choses are simple 
-- (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki)
-Personally I just think it is better on the eyes but I don't want to make any changes because it does look like someone did make the effort to do that. There is nice boxes for the highlighted points on each page.
-
+Designs choses are simple (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki) Peoploaly I just think it better on the eyes but I don't want to make too mak=ny chancges beacuse it dose look like someone did make the effort to do that. There is nice boxes for the 
 
 ### Members & Responsibilities
 
