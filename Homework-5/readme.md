@@ -2,11 +2,11 @@
 
 ### Project Summary
 
-<!-- Brief description of your what your project is about and why you chose that topic. -->
+The website is primarily an online ordering system, following 3 different types such as a restaurant, amusement park, and an animal shelter. The user inputs their selected choices for whichever items are listed on the GUI by clicking add, this then would list whichever item selected and if needed to be removed would then click the remove button to eliminate it from the list.
 
 ### Live Link
 
-<!-- [Blog Page](https://{username}.github.io/{reponame}/homework-2)   -->
+<!-- [Homework 5](https://kayholly.github.io/raccons/homework-5/)-->
 
 ### Key Takeaways
 
@@ -14,7 +14,7 @@ This project will teach us a multitude of things:
 - css to stylize webpage
 - use of DOM elements
 - live links
-- 
+- how to work as a group on github 
 
 
 ### Core Webpages
@@ -23,11 +23,11 @@ This project will teach us a multitude of things:
 
 ### Design Choices 
 
-<!-- List any websites that you might reference to influence your styling choices. List any colors used and what they were used for. -->
+Designs choses are simple (Sorry raccoon disciples I changed the color from #f5deb3 to darkkhaki) Peoploaly I just think it better on the eyes but I don't want to make too mak=ny chancges beacuse it dose look like someone did make the effort to do that. There is nice boxes for the 
 
 ### Members & Responsibilities
 
 <!-- List all members, their roles, and their scenario titles -->
-- Moubarak Mossi(Scrum Master,Analyst)
-- Jonathan Ramirez-Molina(Architect )
-- Kaylinn Holly(President , designer)
+- Moubarak Mossi(Scrum Master,Analyst): Resturants 
+- Jonathan Ramirez-Molina(Architect ): Pet store
+- Kaylinn Holly(President , designer): Amusement Park
