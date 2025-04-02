@@ -46,6 +46,14 @@ Describe your local storage data structure with rationale.
 ---
 
 
+### Pages List
+
+* Jonathan - Home Page & Digital Waiver
+
+* Moubarak - Cheese Shop
+
+* Kaylinn - Cheese Race History 
+
 
 
 
