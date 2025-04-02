@@ -46,13 +46,15 @@ Describe your local storage data structure with rationale.
 ---
 
 
+<!-- Reminders: Age limit for waivers -->
+
 ### Pages List
 
 * Jonathan - Home Page & Digital Waiver
 
-* Moubarak - Cheese Shop
+* Moubarak - Cheese Shop 
 
-* Kaylinn - Cheese Race History 
+* Kaylinn - Cheese Race History & Leaderboard
 
 
 
