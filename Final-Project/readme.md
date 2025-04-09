@@ -52,7 +52,7 @@ Describe your local storage data structure with rationale.
 
 * Jonathan - Home Page & Digital Waiver
 
-* Moubarak - Cheese Shop 
+* Moubarak - Cheese Shop, list of activites 
 
 * Kaylinn - Cheese Race History & Leaderboard
 
