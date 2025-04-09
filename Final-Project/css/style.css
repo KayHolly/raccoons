@@ -1,12 +1,15 @@
-nav {
-    height: 30px;
+#nav-bar {
+    height: 75px;
     padding: 15px;
     background-color: darkkhaki;
 
-    align-items: center;
-    display: flex;
+    text-align: center;
+    /* display: flex; */
     gap: 50px;
 }
+
+
+
 
 html {
     font-family: playfair display; 
