@@ -39,7 +39,6 @@ Describe your local storage data structure with rationale.
 ### Assignemnt Links
 [Final-Project](https://kayholly.github.io/raccoons/Final-Project/)
 
-> This might be broken sowwy:
 
 ![Raccooon riding  a bicycle](https://media1.giphy.com/media/StWnlQipuBrz2/giphy.gif?cid=6c09b952eyki1xwbn2bmzhek0fn8pctroywvcla02h4liv8j&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g)
 
@@ -52,7 +51,11 @@ Describe your local storage data structure with rationale.
 
 * Jonathan - Home Page & Digital Waiver
 
+<<<<<<< HEAD
 * Moubarak - Cheese Shop, list of activites 
+=======
+* Moubarak - Cheese Shop & Activities List
+>>>>>>> 8a2f13dcd2ae2a64f9932c4347f13937a14b3b65
 
 * Kaylinn - Cheese Race History & Leaderboard
 
