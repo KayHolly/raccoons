@@ -51,11 +51,7 @@ Describe your local storage data structure with rationale.
 
 * Jonathan - Home Page & Digital Waiver
 
-<<<<<<< HEAD
 * Moubarak - Cheese Shop, list of activites 
-=======
-* Moubarak - Cheese Shop & Activities List
->>>>>>> 8a2f13dcd2ae2a64f9932c4347f13937a14b3b65
 
 * Kaylinn - Cheese Race History & Leaderboard
 
