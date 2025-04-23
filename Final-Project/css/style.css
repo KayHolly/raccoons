@@ -30,3 +30,13 @@ html {
     text-decoration: none;
     color: black;
 }
+
+main{
+    padding: 20px;
+}
+
+.homeText p{
+    text-align: left;
+    font-size: 20px;
+}
+
