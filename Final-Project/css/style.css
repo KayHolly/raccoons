@@ -14,3 +14,15 @@
 html {
     font-family: playfair display; 
 }
+
+/* Kays stuff, Don't touch please */
+.cards {
+    background-color: #57675C;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: calc(33.333% - 40px); 
+    box-sizing: border-box;
+  }
