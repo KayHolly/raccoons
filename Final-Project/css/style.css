@@ -1,5 +1,5 @@
 #nav-bar {
-    height: 75px;
+    height: 95px;
     padding: 15px;
     background-color: darkkhaki;
 
@@ -13,4 +13,21 @@
 
 html {
     font-family: playfair display; 
+}
+
+.button{
+    background-color: #FFFDD0;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
 }
