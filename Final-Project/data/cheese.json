@@ -1,5 +1,4 @@
-{
-  "cheese": [
+[
     {
       "name": "Parmigiano-Reggiano",
       "country": "Italy",
@@ -141,4 +140,3 @@
       "image": "https://m.media-amazon.com/images/I/51IlvsU-vXL._AC_UF894,1000_QL80_.jpg"
     }
   ]
-}
