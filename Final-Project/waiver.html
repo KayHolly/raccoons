@@ -23,12 +23,15 @@
         </button>
 
         <button class="button">
-          <a href="waiver.html">Signup!</a>
+          <a href="waiver.html">Signup</a>
         </button>
         <br/>
       </nav>
       <h1>Cheese Rolling Waiver and Signup</h1>
     </div>
+
+   
+    <form id="waiver-form">
 
 <div style="text-align: center;">
     <h2>Cooper’s Hill Cheese-Rolling and Wake – Participant Waiver & Release of Liability</h2>
@@ -62,37 +65,38 @@
     </div>
 
     <h4>By signing below, I confirm that I’ve read this waiver, understand its contents, and still think chasing cheese down a hill sounds like a good time.</h4>
-
+    
+    
 
     <label>First Name:</label>
-    <input type="text" name="first_name" required><br>
+    <input type="text" name="first_name" required id="first_name"><br>
   
     <label>Last Name:</label>
-    <input type="text" name="last_name" required><br>
+    <input type="text" name="last_name" required id="last_name"><br>
   
     <label>Date of Birth:</label>
-    <input type="date" name="dob" required><br>
+    <input type="date" name="dob" required id="dob"><br>
   
     <label>Address:</label>
-    <input type="text" name="address" required><br>
+    <input type="text" name="address" required id="address"><br>
 
     <label>Email Address:</label>
-  <input type="email" name="email" required><br>
+  <input type="email" name="email" required id="email"><br>
 
   <label>Phone Number:</label>
-  <input type="tel" name="phone" required><br>
+  <input type="tel" name="phone" required id="phone"><br>
 
   <label>Emergency Contact Name:</label>
-  <input type="text" name="emergency_name" required><br>
+  <input type="text" name="emergency_name" id="emergency_name"><br>
 
   <label>Emergency Contact Phone:</label>
-  <input type="tel" name="emergency_phone" required><br>
+  <input type="tel" name="emergency_phone" id="emergency_phone"><br>
 
   <label>Date of Signature:</label>
-  <input type="date" name="signature_date" required><br>
+  <input type="date" name="signature_date" required id="signature_date"><br>
 
   <label>Signature:</label>
-  <input type="text" name="signature" placeholder="Type full name" required><br>
+  <input type="text" name="signature" placeholder="Type full name" required id="signature"><br>
 
   <hr>
 
@@ -117,13 +121,25 @@
   <input type="radio" name="media_permission" value="no"> No, I prefer anonymity<br>
 
   <label>Final Words Before Descent:</label><br>
-  <textarea name="final_words" rows="3" placeholder="Something epic... or cheesy."></textarea><br><br>
+  <textarea name="final_words" rows="3" placeholder="Something cool... or cheesy." id="final_words"></textarea><br><br>
+
 
   <button type="submit">Submit Waiver</button>
+
 </form>
 
 
+<div id="digital-copy" style="display: none; text-align: center; margin-top: 2rem;">
+    <h2>🎉 Thank you for signing your life away! 🧀</h2>
+    <p>Here’s your official digital copy:</p>
+    <div id="summary-box" style="background-color: #f9f5e3; padding: 1rem; border-radius: 10px; max-width: 600px; margin: auto; font-family: 'Playfair Display', serif;">=
+    </div>
+    <h3>Your number is: <span id="assigned-number"></span></h3>
+  </div>
+  
+  
 
     <script src="js/script.js"></script>
+    <script src="js/waiver.js"></script>
   </body>
 </html>
