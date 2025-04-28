@@ -1,12 +1,31 @@
 #nav-bar {
-    height: 150px;
-    padding: 15px;
+    padding: 20px;
     background-color: darkkhaki;
-
     text-align: center;
-    /* display: flex; */
-    gap: 50px;
 }
+
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: #FFFDD0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
 
 
 
@@ -105,4 +124,49 @@ html {
 
 * {
     box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Playfair Display', serif;
+    color: #5c4b00;
+}
+
+
+.button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+/* Make sure buttons are spaced and centered nicely in nav */
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #nav-bar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 80%;
+    }
 }
