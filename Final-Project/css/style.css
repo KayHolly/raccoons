@@ -39,3 +39,24 @@ html {
     transition: 0.3s;
 
 }
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    gap: 2rem;
+  }
+    
+  
+  .section .image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .section .text {
+    flex: 1;
+  }
+  

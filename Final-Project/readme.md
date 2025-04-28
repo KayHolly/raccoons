@@ -45,8 +45,6 @@ Describe your local storage data structure with rationale.
 ---
 
 
-<!-- Reminders: Age limit for waivers -->
-
 ### Pages List
 
 * Jonathan - Home Page & Digital Waiver
