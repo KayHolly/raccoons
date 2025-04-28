@@ -65,3 +65,18 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #c2b280;
 }
+
+
+label {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem; /* new */
+    font-weight: bold;
+    color: #333;
+}
+
+form h4 {
+    text-align: center;
+    color: #5c4b00;
+    margin-bottom: 1rem;
+}

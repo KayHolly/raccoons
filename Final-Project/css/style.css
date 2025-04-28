@@ -1,5 +1,5 @@
 #nav-bar {
-    height: 95px;
+    height: 150px;
     padding: 15px;
     background-color: darkkhaki;
 
@@ -60,3 +60,49 @@ html {
     flex: 1;
   }
   
+
+  /* for mobile compatibility */
+
+  @media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section .image img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .section .text {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .section {
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+}
+
+  
+
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #nav-bar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 80%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
