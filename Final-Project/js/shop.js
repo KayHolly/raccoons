@@ -18,7 +18,7 @@ const cheeseData = {
     { "name": "Fontina", "image": "https://cdn11.bigcommerce.com/s-h2455qkov2/images/stencil/1280x1280/products/1308/4832/Imported_Creamy_Italian_Fontina__04377.1583083773.jpg?c=2" },
     { "name": "Mimolette", "image": "https://cdn.powered-by-nitrosell.com/product_images/26/6472/large-Mimolette_1.jpg" },
     { "name": "Reblochon", "image": "https://www.matchingfoodandwine.com/files/blogattachments/top/reblochon@2x.jpg" },
-    { "name": "Queso Mahón", "image": "https://www.subaida.com/wp-content/uploads/2020/02/queso-curado-entero-artesano-2-scaled.jpg" },
+    { "name": "Queso Mahón", "image": "https://vimart.mx/wp-content/uploads/2021/03/Captura-de-Pantalla-2020-11-09-a-las-17.29.35.png" },
     { "name": "Piave", "image": "https://m.media-amazon.com/images/I/51IlvsU-vXL._AC_UF894,1000_QL80_.jpg" }
   ]
 };
