@@ -25,3 +25,4 @@ numberSpan.innerText = participantNumber;
 form.style.display = "none";
 digitalCopy.style.display = "block";
 });
+

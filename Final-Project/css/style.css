@@ -4,6 +4,12 @@
     text-align: center;
 }
 
+.section-3{
+  padding: 10px;
+  background-color: darkkhaki;
+  text-align: center;
+}
+
 #nav-bar nav {
     display: flex;
     flex-wrap: wrap;
