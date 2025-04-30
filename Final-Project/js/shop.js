@@ -69,3 +69,20 @@ function addToCart(item) {
 
   cart.appendChild(li);
 }
+const checkoutBtn = document.getElementById('checkout-btn');
+const checkoutMessage = document.getElementById('checkout-message');
+
+checkoutBtn.onclick = () => {
+  if (cart.children.length === 0) {
+    checkoutMessage.textContent = "Your cart is empty!";
+    checkoutMessage.style.color = "red";
+    return;
+  }
+
+  checkoutMessage.textContent = "Your cheese has been bought.";
+  checkoutMessage.style.color = "black";
+
+  
+  cart.innerHTML = "";
+};
+
