@@ -1,12 +1,38 @@
 #nav-bar {
-    height: 95px;
+    height: 75px;
     padding: 15px;
     background-color: darkkhaki;
-
     text-align: center;
-    /* display: flex; */
-    gap: 50px;
 }
+
+.section-3{
+  padding: 10px;
+  background-color: darkkhaki;
+  text-align: center;
+}
+
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    padding: 12px 20px;
+    background-color: #FFFDD0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+
 
 
 
@@ -14,7 +40,6 @@
 html {
     font-family: playfair display; 
 }
-
 
 .button{
     background-color: #FFFDD0;
@@ -31,35 +56,220 @@ html {
 .button a{
     text-decoration: none;
     color: black;
+    opacity: 1;
+  
 }
 
-/* Kays stuff, Don't touch please */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
+.button:hover{
+    opacity: 0.6;
+    transition: 0.3s;
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0;
+    gap: 2rem;
   }
+    
   
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
+  .section .image img {
     width: 100%;
-    font-size: 18px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
   }
   
-  .card button:hover {
-    opacity: 0.7;
+  .section .text {
+    flex: 1;
   }
-/* The end Kays stuff */
+  
+
+  /* for mobile compatibility */
+
+  @media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section .image img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .section .text {
+        text-align: center;
+        padding: 0 20px;
+    }
+    .section {
+        gap: 1rem;
+        margin: 1.5rem 0;
+    }
+}
+
+  
+
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #nav-bar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 80%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Playfair Display', serif;
+    color: #5c4b00;
+}
+
+
+.button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+.button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.6;
+}
+
+/* Make sure buttons are spaced and centered nicely in nav */
+#nav-bar nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #nav-bar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 80%;
+    }
+}
+
+/* style for the shop*/
+.cheese-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .cheese-item {
+    position: relative;
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .cheese-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cheese-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9d342;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+  
+  .cheese-item:hover .tooltip {
+    opacity: 1;
+  }
+
+  /* style for the cart*/
+  
+  #cart {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 8px 0;
+  }
+  
+  .cart-item img {
+    border-radius: 8px;
+  }
+  
+  .cart-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cart-item button:hover {
+    background-color: darkred;
+  }
+  
+
+
+  /*activites */
+  .activities-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .activity {
+    width: 300px;
+    text-align: center;
+  }
+  
