@@ -1,5 +1,5 @@
 #nav-bar {
-    height: 75px;
+    height: 95px;
     padding: 15px;
     background-color: darkkhaki;
 
@@ -15,14 +15,51 @@ html {
     font-family: playfair display; 
 }
 
-/* Kays stuff, Don't touch please */
-.cards {
-    background-color: #57675C;
+
+.button{
+    background-color: #FFFDD0;
+    border: none;
     color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    width: calc(33.333% - 40px); 
-    box-sizing: border-box;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Kays stuff, Don't touch please */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
   }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+/* The end Kays stuff */

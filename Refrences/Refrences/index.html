@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <center>
+    <h1> Music Database</h1>
+  </center>
+<!--Header-->
+  <header class="header">
+    <h1> Genre filter</h1>
+    <div class="filters">
+    <button class="filter-button" onclick="filterGenre('R&B')">R&B</button>
+    <button class="filter-button" onclick="filterGenre('Pop')">Pop</button>
+    <button class="filter-button" onclick="filterGenre('Hip Hop')">Hip Hop</button> 
+    <button class="filter-button" onclick="filterGenre('Rock')">Rock</button> 
+    <button class="filter-button" onclick="filterGenre('Meme')">Meme?</button> 
+    <button class="filter-button" onclick="location.reload();">Clear Filter</button>
+      
+      </div>
+
+  </header>
+     <div  class="album-list" id="albumList"></div>
+    <p>Sorry I don't own any of these songs©</p>
+  <script src="js/script.js"></script>
+  
+</body>
+
+</html>
