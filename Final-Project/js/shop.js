@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const cheeseData = {
   "cheese": [
     { "name": "Parmigiano-Reggiano", "image": "https://www.gourmetfoodworld.com/images/product/medium/1463_1_.jpg" },
@@ -86,3 +87,74 @@ checkoutBtn.onclick = () => {
   cart.innerHTML = "";
 };
 
+});
+
+//for login
+    const loginFormRef = document.querySelector("#login form");
+    const usernameRef = document.querySelector("#username");
+    const passwordRef = document.querySelector("#password");
+    const contentRef = document.querySelector("#content");
+    const logoutRef = document.querySelector("#logout");
+
+    let activeUser = JSON.parse(localStorage.getItem("activeUser") || "{}");
+
+    function loginUser(e) {
+      e.preventDefault();
+
+      const usernameValue = usernameRef.value.trim();
+      const passwordValue = passwordRef.value;
+
+      const users = JSON.parse(localStorage.getItem("users") || "[]");
+
+      let userFound = false;
+      let correctPassword = false;
+
+      for (let i = 0; i < users.length; i++) {
+        const currentUser = users[i];
+        if (currentUser.username === usernameValue) {
+          userFound = true;
+          if (currentUser.password === passwordValue) {
+            correctPassword = true;
+          }
+        }
+      }
+
+      if (!userFound) {
+        users.push({ username: usernameValue, password: passwordValue });
+        localStorage.setItem("users", JSON.stringify(users));
+        alert("Welcome new cheese consumer");
+
+        activeUser = { username: usernameValue };
+        localStorage.setItem("activeUser", JSON.stringify(activeUser));
+      } else if (!correctPassword) {
+        alert("Wrong password, No cheese for you");
+        return;
+      } else {
+        alert("Success, please spend your money");
+
+        activeUser = { username: usernameValue };
+        localStorage.setItem("activeUser", JSON.stringify(activeUser));
+      }
+
+      toggleLogin();
+    }
+
+    function toggleLogin() {
+      if (!activeUser.username) {
+        document.getElementById("login").style.display = "block";
+        contentRef.style.display = "none";
+      } else {
+        document.getElementById("login").style.display = "none";
+        contentRef.style.display = "block";
+      }
+    }
+
+    function logoutUser() {
+      localStorage.removeItem("activeUser");
+      activeUser = {};
+      toggleLogin();
+    }
+
+    loginFormRef.onsubmit = loginUser;
+    logoutRef.onclick = logoutUser;
+    toggleLogin();
